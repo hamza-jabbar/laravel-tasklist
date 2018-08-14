@@ -1,0 +1,4 @@
+-   Laravel makes it easy for common views to be used by using blade layouts.
+-   The .blade.php extension instructs the framework to use the Blade templating engine to render the view
+-   "@yield()" - Blade directive that specifies where all child pages that extend the layout can inject their own content.
+-   "@extends()" - Tells blade the layout defined in the "resources/views/layouts/app.blade.php" file
